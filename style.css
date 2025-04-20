@@ -39,30 +39,24 @@ nav a {
   padding: 60px 0;
 }
 
-section h2 {
-  color: #1f3b73;
-}
-
-form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  padding: 10px 20px;
-  background-color: #1f3b73;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
 footer {
   background-color: #1f3b73;
   color: white;
   text-align: center;
   padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
 }
